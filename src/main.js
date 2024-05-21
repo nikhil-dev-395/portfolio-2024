@@ -1,3 +1,10 @@
+// for showing hamburger menu icon
+document.getElementById("menu-btn").addEventListener("click", function () {
+  var mobileMenu = document.getElementById("mobile-menu");
+  mobileMenu.classList.toggle("hidden");
+});
+
+// this array is used to show the skills in experience
 const FrontendSkills = [
   { id: "1", name: "HTML", icon: "fa-brands fa-html5" },
   { id: "2", name: "CSS", icon: "fa-brands fa-css3" },
